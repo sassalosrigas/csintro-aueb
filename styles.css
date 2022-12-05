@@ -140,7 +140,7 @@
 	}
 	p {
 		text-align: center;
-		font-size: 3px;
+		font-size: 15px;
 	}
 
 	h5 {
@@ -148,12 +148,17 @@
 	}
 
 	ul li {
-		font-size: 25px;
+		font-size: 20px;
+	}
+	ul {
+		display:inline-block;
+
+        padding:20px;
 	}
 
 	.recipe-img {
 		width: 20%;
-		float: left;
+		float: right;
 		padding: 0 15px;
 	}
 

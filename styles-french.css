@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:url(images/ratt.png.jpg);
-    background-size: 100%;
+    background: rgb(0,38,84);
+    background: linear-gradient(90deg, rgba(0,38,84,1) 0%, rgba(255,255,255,1) 50%, rgba(237,41,57,1) 100%);
 }
 
 header {

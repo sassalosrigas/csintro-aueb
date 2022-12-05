@@ -12,9 +12,7 @@ header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20;
-
 }
-
 
 nav {
     position: fixed;
@@ -28,7 +26,7 @@ nav {
     border-bottom: 1px solid rgb(50, 26, 26);
 }
 
-nav .logo{
+nav .logo {
     padding: 12px 1px;
     height: 180px;
     float:left;
@@ -46,15 +44,14 @@ nav .logo:visited {
     color: bisque;
 }
 
-nav ul{
-        list-style: none;
-        float: right;
-        padding: 0;
-        display: flex;
-
+nav ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+    display: flex;
 }
 
-nav ul li a{
+nav ul li a {
     line-height: 30px;
     color:rgb(214, 206, 155);
     padding:12px 18px;
@@ -63,37 +60,32 @@ nav ul li a{
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: inherit;
-    
-
 }
 
 nav ul li a:visited {
     color:rgb(222, 198, 150);
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background: rgba(252, 177, 1, 0.561);
     border-radius: 8px;
-
 }
 
-section{
+section {
     width: 100%;
     height: 10vh;
     background-size: cover;
     background-position: center;
     background: url(images/ratt.png.jpg);
-
 }
 
-
 header li {  
-margin: 20px;  
+    margin: 20px;  
 }  
 
 header li a {  
-color: blue;  
-text-decoration: none;  
+    color: blue;  
+    text-decoration: none;  
 }  
 
 a:visited {
@@ -104,37 +96,19 @@ nav:visited {
     color:black;
 }
 
-
 footer {
-position: fixed;
-bottom: 0;
-width: 100%;
-height: 62px;   /* Height of the footer */
-background: rgba(3, 2, 36, 0.546);
-font-size: 10px;
-text-align: center;
-color: rgba(196, 178, 125, 0.808);
-
-}
-
-h1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    background: rgba(3, 2, 36, 0.546);
+    font-size: 10px;
     text-align: center;
-    color: rgba(239, 200, 150, 0.788);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration-line: overline;
-    
-}
-
-h3 {
-    text-align: center;
+    color: rgba(196, 178, 125, 0.808);
 }
 
 p {
     font-size: 15px;
-}
-
-h5 {
-    text-align: center;
 }
 
 ul li {
@@ -148,7 +122,6 @@ ul li {
     padding: 20px 70px;
     padding-top: 50px;
 }
-
 
 figure {
     background-color: rgba(0, 0, 0, 0.59) ;
@@ -168,5 +141,18 @@ iframe {
 
 ol {
     color: rgb(214, 206, 155);
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-img {
+    width: 400px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+a:visited {
+    color: black;
+    
 }

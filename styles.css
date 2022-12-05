@@ -1,111 +1,100 @@
-	body {
-		
-		margin: 0;
-		padding: 0;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		background-image: url(images/ratt.png.jpg);
-		background-size: 100%;
-	}
+body {	
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url(images/ratt.png.jpg);
+	background-size: 100%;
+}
 
-	header {
-		
-		text-align: center;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 20;
+header {	
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20;
+}
 
-	}
+nav {
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.346);
+	border-bottom: 1px solid rgb(50, 26, 26);
+}
 
+nav .logo {
+	padding: 12px 1px;
+	height: 180px;
+	float:left;
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: none;
+	color: rgba(223, 196, 139, 0.84);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-stretch: wider;
+	font-style: oblique;
+	text-decoration: none;
+}
 
-	nav {
-		position: fixed;
-		top:0;
-		left: 0;
-		width: 100%;
-		height: 80px;
-		padding: 10px 90px;
-		box-sizing: border-box;
-		background: rgba(0, 0, 0, 0.346);
-		border-bottom: 1px solid rgb(50, 26, 26);
-	}
+nav ul {
+	list-style: none;
+	float: right;
+	padding: 0;
+	display: flex;
+}
 
-	nav .logo{
-		padding: 12px 1px;
-		height: 180px;
-		float:left;
-		font-size: 30px;
-		font-weight: bolder;
-		text-transform: none;
-		color: rgba(223, 196, 139, 0.84);
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		font-stretch: wider;
-		font-style: oblique;
-		text-decoration: none;
-	}
+nav ul li a {
+	line-height: 65px;
+	color:rgb(214, 206, 155);
+	padding:10px 15px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: inherit;
+}
 
-	nav ul{
-			list-style: none;
-			float: right;
-			padding: 0;
-			display: flex;
+nav ul li a:visited {
+	color:rgb(222, 198, 150);
+}
 
-	}
+nav ul li a:hover {
+	background: rgba(252, 177, 1, 0.561);
+	border-radius: 8px;
+}
 
-	nav ul li a{
-		line-height: 65px;
-		color:rgb(214, 206, 155);
-		padding:10px 15px;
-		text-decoration: none;
-		font-size: 18px;
-		font-weight: bolder;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		font-style: inherit;
-		
+section {
+	width: 100%;
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+	background: url(images/ratt.png.jpg);
+}
 
-	}
-
-	nav ul li a:visited {
-		color:rgb(222, 198, 150);
-	}
-
-	nav ul li a:hover{
-		background: rgba(252, 177, 1, 0.561);
-		border-radius: 8px;
-
-	}
-
-	section{
-		width: 100%;
-		height: 10vh;
-		
-		background-size: cover;
-		background-position: center;
-		background: url(images/ratt.png.jpg);
-
-	}
-
-
-	header li {  
+header li {  
 	margin: 20px;  
-	}  
+}  
 
-	header li a {  
+header li a {  
 	color: blue;  
 	text-decoration: none;  
-	}  
+}  
 
-	a:visited {
-		color:blue;
-	}
+a:visited {
+	color:blue;
+}
 
-	nav:visited {
-		color:black;
-	}
+nav:visited {
+	color:black;
+}
  
-	nav .logo:visited{
-		color: bisque;
-	}
+nav .logo:visited {
+	color: bisque;
+}
 
-	footer {
+footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -114,64 +103,55 @@
 	font-size: 3px;
 	text-align: center;
 	color: rgba(196, 178, 125, 0.808);
-   
-	}
+}
 	
-	h1 {
-		text-align: center;
-		color: rgba(239, 200, 150, 0.788);
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		text-decoration-line: overline;
-		height: 90%;
-		
-	}
+h1 {
+	text-align: center;
+	color: rgba(239, 200, 150, 0.788);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration-line: overline;
+	height: 90%;
+}
 
-	h3 {
-		text-align: center;
-		color: bisque;
-		padding: 10px;
-		border: 3px;
-	}
-	.pg {
-		padding: 10px;
-		border: 2px solid red;
-		display: inline-block;
+h3 {
+	text-align: center;
+	color: bisque;
+	padding: 10px;
+	border: 3px;
+}
 
-	}
-	p {
-		text-align: center;
-		font-size: 15px;
-	}
+.pg {
+	padding: 10px;
+	border: 2px solid red;
+	display: inline-block;
+}
 
-	h5 {
-		text-align: center;
-	}
+p {
+	text-align: center;
+	font-size: 15px;
+}
 
-	ul li {
-		font-size: 20px;
-	}
-	ul {
-		display:inline-block;
+h5 {
+	text-align: center;
+}
 
-        padding:20px;
-	}
+ul li {
+	font-size: 20px;
+}
 
-	.recipe-img {
-		width: 20%;
-		float: right;
-		padding: 0 15px;
-	}
+ul {
+	display:inline-block;
+    padding:20px;
+}
 
-
-
-*{
+* {
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
+.container {
 	width: 100%;
 	height: 100vh;
 	background: #455d0e00;
@@ -180,7 +160,7 @@
 	justify-content: center;
 }
 
-.btn{
+.btn {
 	padding: 10px 60px;
 	background: rgba(11, 1, 30, 0.73);
 	border:0;
@@ -194,7 +174,7 @@
 
 }
 
-.popup{
+.popup {
 	width: 300px;
 	background: rgba(11, 2, 32, 0.544);
 	border-radius: 6px;
@@ -209,31 +189,27 @@
 	
 }
 
-.open-popup{
+.open-popup {
 	visibility: visible;
 	top:50%;
 	transform: translate(-50%,-50%) scale(1);
 
 }
 
-
-
-
-.popup img{
+.popup img {
 	width: 100px;
 	margin-top: -50%;
 	border-radius: 50%;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.popup h2{
+.popup h2 {
 	font-size: 30px;
 	font-weight: 500;
 	margin: 30px 0 10px;
-
 }
 
-.popup button{
+.popup button {
 	width: 100%;
 	margin-top: 50px;
 	padding: 10px 0;
@@ -245,10 +221,6 @@
 	cursor: pointer;
 	box-shadow: 0 5px 5px rgba(22, 17, 2, 0.529);
 	color: bisque;
-
-
-
-
 }
 
 

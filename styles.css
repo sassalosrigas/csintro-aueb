@@ -111,19 +111,21 @@ h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration-line: overline;
 	height: 90%;
+	padding: 25px;
 }
 
-h3 {
+h2 {
 	text-align: center;
 	color: bisque;
 	padding: 10px;
 	border: 3px;
+	font-size: 2px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.pg {
-	padding: 10px;
-	border: 2px solid red;
-	display: inline-block;
+.gif{
+	height: 40%;
+	padding: 50px;
 }
 
 p {
@@ -153,7 +155,7 @@ ul {
 
 .container {
 	width: 100%;
-	height: 100vh;
+	height: 50vh; 
 	background: #455d0e00;
 	display: flex;
 	align-items: center;
@@ -161,15 +163,16 @@ ul {
 }
 
 .btn {
-	padding: 10px 60px;
+	padding: 9px 60px;
 	background: rgba(11, 1, 30, 0.73);
 	border:0;
 	outline: none;
 	cursor: pointer;
-	font-size: 22px;
-	font-weight: 500;
+	font-size: 16px;
+	font-weight: bolder;
 	border-radius: 30px;
-	color: rgb(229, 190, 117);
+	font-variant: unset;
+	color: rgb(243, 214, 159);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -177,15 +180,18 @@ ul {
 .popup {
 	width: 300px;
 	background: rgba(11, 2, 32, 0.544);
-	border-radius: 6px;
+	border-radius: 40px;
 	position: absolute;
 	top: 0%;
 	left: 50%;
 	transform: translate(-50%,-50%)scale(0.1);
 	text-align: center;
 	padding: o 30px 30px;
-	color: rgba(221, 182, 105, 0.803);
+	color: rgba(255, 219, 157, 0.803);
 	visibility: hidden;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: lighter;
+	font-style: italic;
 	
 }
 
@@ -204,9 +210,14 @@ ul {
 }
 
 .popup h2 {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
 	margin: 30px 0 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: oblique;
+
+	font-stretch: expanded;
+	font-variant: small-caps;
 }
 
 .popup button {

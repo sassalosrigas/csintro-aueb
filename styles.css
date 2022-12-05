@@ -136,11 +136,16 @@
 	}
 
 	ul li {
-		font-size: 25px;
+		font-size: 20px;
+	}
+	ul {
+		display:inline-block;
+		
+        padding:20px;
 	}
 
 	.recipe-img {
 		width: 20%;
-		float: left;
+		float: right;
 		padding: 0 15px;
 	}

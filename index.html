@@ -31,20 +31,47 @@
 
     </nav>
     <section></section>
-
-
-
-
-
-
     
     <h1>Welcome to our Cookbook</h1>
     <img src="https://media.giphy.com/media/GCArrYP8TzXgs/giphy.gif" alt="funny GIF" width="30%" style="display: block;margin-left: auto; margin-right:auto;">
-    <br>
-    <p>Introduction to the amazing world of cooking by the <em>much-esteemed</em> cooking critic <b>Karvounis Dimitrios</b><br>
-        and his assistants <b>Sassalos Rigas</b> and <b>Anais Farhat</b>
-    </p>
-    <br>
+    
+        <div class="container">
+
+            <button type="hi" class="btn" onclick="openPopup()">hi</button>
+            <div class="popup" id="popup">
+                <img src="images/rat.png">
+                <h2>hihi</h2>
+                <p>iiiiiiiiiii</p>
+                <button type="button" onclick="closePopup()">ok</button>
+            </div>
+        </div>
+        <script>
+            let popup= document.getElementById("popup")
+            function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <p id="pg"> About this site</p>
     

@@ -1,6 +1,6 @@
 body {	
 	margin: 0;
-	padding: 5px;
+	padding: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-image: url(images/ratt.png.jpg);
 	background-size: 100%;
@@ -94,11 +94,48 @@ nav .logo:visited {
 	color: bisque;
 }
 /*------------------------------------------------------------------------------------------------------------*/
+.sidenav {
+	display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-right: 0px;
+	border: 10px;
+	height: 10px;
+	border-right: 10px;
+}
 
+.sidenav a :visited{
+	color: rgb(200, 255, 0);
+}
 
+.sidenav a{
+	color: black;
+	text-decoration: none;
+	border: 20px;
+	display: block;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+	font-style: oblique;
+    margin-bottom: 30px;
+    margin-right: 10px;
+	font-variant: unset;
+	font-size: 24px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.sidenav a:hover
+{
+    background: rgba(27, 10, 99, 0.623);
+    color: rgb(254, 254, 254);
+	border: 40px;
+	border-radius: 40px;
+	text-align: left;
+	
+}
 
-
-  
   
  

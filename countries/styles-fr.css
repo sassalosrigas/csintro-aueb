@@ -139,31 +139,40 @@ nav .logo:visited {
 	width: 330px;
 	
 }
+
+
+
+
 .p1 h1{
 	position: absolute;
 	margin-right: 100px;
 	padding: 100px;
 	text-decoration: right;
 	text-align: center;
-	right: 200px;
+	right: 250px;
 	top: -20px;
 	text-decoration: overline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(255, 228, 196, 0.526);
 }
+
+
+
+
 .p1 h2{
 	position: absolute;
-	margin-right: 100px;
+	margin-right: 200px;
 	padding: 100px;
 	text-decoration: right;
 	text-align: center;
-	right: 300px;
+	right: 60px;
 	top: 110px;
-	
+	left: 550px;
+	padding-right: 700px 80px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(233, 200, 183, 0.846);
 	font-size: 16px;
-
+	float: right;
+	
 
 }
- 

@@ -149,32 +149,36 @@ nav .logo:visited {
 	padding: 100px;
 	text-decoration: right;
 	text-align: center;
-	right: 250px;
-	top: -20px;
+	right: 44px;
+	top: -10px;
 	text-decoration: overline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgba(255, 228, 196, 0.526);
+	color: rgba(255, 228, 196, 0.627);
 }
 
 
 
 
 .p2 {
-	/* position: absolute; */
-	margin-right: 50px;
-	/* padding: 100px; */
-	/* text-decoration: right; */
 	
-	/* right: 60px; */
+	margin-right: 120px;
 	width: 400px;
 	height: 200px;
-	/* top: 110px; */
-	/* left: 550px; */
-	/* padding-right: 700px 80px; */
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(233, 200, 183, 0.846);
 	font-size: 16px;
 	float: right;
+	padding: 60px;
 	
+	
+
+}
+.p2 h2{
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-variant: unset;
+	color: bisque;
+	font-style: oblique;
+
 
 }

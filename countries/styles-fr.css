@@ -2,10 +2,10 @@ body {
 	margin: 0;
 	padding: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-image: url(images/ratt.png.jpg);
+	background-image: url(../images/ratt.png.jpg);
 	background-size: 100%;
 	background-color: rgba(0, 0, 0, 0.448);
-	background-image: url(images/ratt.png.jpg);
+	
 }
 
 header {	
@@ -101,7 +101,7 @@ nav .logo:visited {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(228, 157, 33, 0);
     margin-bottom: 10px;
     margin-right: 0px;
 	border: 10px;
@@ -110,11 +110,11 @@ nav .logo:visited {
 }
 
 .sidenav a :visited{
-	color: rgb(224, 181, 65);
+	color: rgb(199, 144, 26);
 }
 
 .sidenav a{
-	color: rgba(59, 39, 17, 0.396);
+	color: rgba(226, 188, 147, 0.593);
 	text-decoration: none;
 	border: 20px;
 	display: block;
@@ -131,7 +131,7 @@ nav .logo:visited {
 
 .sidenav a:hover
 {
-    background: rgba(26, 10, 99, 0.248);
+    background: rgba(200, 137, 20, 0.312);
     color: rgb(254, 254, 254);
 	border: 40px;
 	border-radius: 65px;

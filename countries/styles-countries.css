@@ -148,7 +148,7 @@ nav .logo:visited {
 .p1 h1{
 	position: absolute;
 	margin-right: 100px;
-	padding: 100px;
+	padding: 100px; /* thelei allagh giati empodizei to nav bar */
 	text-decoration: right;
 	text-align: center;
 	right: 44px;

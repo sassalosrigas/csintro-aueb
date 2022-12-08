@@ -5,6 +5,8 @@ body {
 	background-image: url(../images/ratt.png.jpg);
 	background-size: 100%;
 	background-color: rgba(0, 0, 0, 0.448);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	
 }
 
@@ -174,11 +176,82 @@ nav .logo:visited {
 
 }
 .p2 h2{
-	font-size: 16px;
+	font-size: 15px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-variant: unset;
+	font-variant: small-caps;
+	font-weight: lighter;
 	color: bisque;
 	font-style: oblique;
+	box-sizing: border-box;
+	background-color: rgba(10, 12, 31, 0.8);
+	padding: 20px;
+	border: 59px;
+	border-radius: 50px;
+	border-style: groove #fff;
+	box-shadow: 13px rgb(0, 0, 0);
+	
+}
+.gifff{
+	width: 48%;
+	margin-left: 31.5%;
+	margin-right: 40%;
+	size-adjust: 50%;
+	
+
+}
+
+.p3 h1{
+	position: absolute;
+	margin-right: 100px;
+	padding: 100px;
+	text-decoration: right;
+	text-align: center;
+	right: 120px;
+	top: 510px;
+	text-decoration: overline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgba(255, 228, 196, 0.627);
+
+}
+
+
+.p4{
+	margin-right: -564px;
+	margin-bottom: 10px;
+	width: 400px;
+	height: 200px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgba(233, 200, 183, 0.846);
+	font-size: 16px;
+	float: right;
+	padding: 400px;
+	padding-right: 100px;
+	
+
+
+}
+.p4 h2{
+	font-size: 15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	color: bisque;
+	font-style: oblique;
+	box-sizing: border-box;
+	background-color: rgba(10, 12, 31, 0.8);
+	padding: 20px;
+	border: 59px;
+	border-radius: 50px;
+	border-style: groove #fff;
+	box-shadow: 13px rgb(0, 0, 0);
+	
+}
+.gifff2{
+	width: 48%;
+	margin-left: 31.5%;
+	margin-right: 120%;
+	size-adjust: 50%;
+	
 
 
 }

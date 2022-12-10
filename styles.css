@@ -131,7 +131,6 @@ h2 {
 p {
 	text-align: center;
 	font-size: 15px;
-	color: white;
 }
 
 h5 {
@@ -235,9 +234,19 @@ ul {
 	color: bisque;
 }
 
+	table, th, td {
+		border:1px solid black;
+		color: rgb(243, 214, 159);
+  	}
 
+	h3 {
+		color: rgb(243, 214, 159);
+	}
 
-
+	.ref {
+		color: rgb(243, 214, 159);
+		text-align: left;
+	}
 
 
 

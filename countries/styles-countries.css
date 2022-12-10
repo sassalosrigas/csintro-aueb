@@ -150,13 +150,7 @@ nav .logo:visited {
 
 
 .p1 h1{
-	position: absolute;
-	margin-right: 67px;
-	padding: 100px; 
-	text-decoration: right;
-	text-align: center;
-	right: 44px;
-	top: -10px;
+	margin-left: 700px;
 	text-decoration: overline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(255, 228, 196, 0.627);
@@ -169,15 +163,11 @@ nav .logo:visited {
 	
 	margin-right: 110px;
 	width: 400px;
-	height: 200px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(233, 200, 183, 0.846);
 	font-size: 16px;
 	float: right;
 	padding: 60px;
-	
-	
-
 }
 .p2 h2{
 	font-size: 15px;
@@ -188,7 +178,6 @@ nav .logo:visited {
 	font-style: oblique;
 	box-sizing: border-box;
 	background-color: rgba(10, 12, 31, 0.8);
-	padding: 20px;
 	border: 59px;
 	border-radius: 50px;
 	border-style: groove #fff;
@@ -199,36 +188,34 @@ nav .logo:visited {
 	width: 48%;
 	margin-left: 30.6%;
 	margin-right: 40%;
-	size-adjust: 50%;
+	
 	
 
 }
 
 .p3 h1{
+	z-index: 100;
 	position: absolute;
-	margin-right: 90px;
-	padding: 100px;
-	text-decoration: right;
-	text-align: center;
-	right: 120px;
-	top: 510px;
+	bottom: 20px;
+	right: 300px;
 	text-decoration: overline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(255, 228, 196, 0.627);
+	
 
 }
 
 
 .p4{
 	margin-right: -564px;
-	margin-bottom: 10px;
+	
 	width: 400px;
-	height: 200px;
+	
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(233, 200, 183, 0.846);
 	font-size: 16px;
 	float: right;
-	padding: 400px;
+	padding: 250px;
 	padding-right: 100px;
 	
 
@@ -254,14 +241,19 @@ nav .logo:visited {
 .p4 h1{
 	width: 400px;
 	margin-bottom: 8px;
-
-	margin-left: 130px;
+	margin-left: 30px;
+	padding: 60px;
 
 
 
 }
 	
-/*-----------------------india--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+	
+	
 
 
 

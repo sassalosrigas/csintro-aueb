@@ -301,10 +301,8 @@ a:visited {
 }
 
 .p4{
-	margin-right: -564px;
-	
+	margin-right: -564px;	
 	width: 400px;
-	
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(233, 200, 183, 0.846);
 	font-size: 16px;
@@ -315,6 +313,7 @@ a:visited {
 
 footer {
 	position: fixed;
+	margin: -10px;
 	bottom: 0;
 	width: 100%;
 	height: 62px;   
@@ -322,6 +321,14 @@ footer {
 	font-size: 10px;
 	text-align: center;
 	color: rgba(196, 178, 125, 0.808);
+
+}
+
+.recipe p{
+	font-size: 10px;
+	text-align: center;
+	color: rgba(196, 178, 125, 0.808);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 	
 .gif {
@@ -331,7 +338,8 @@ footer {
 
 .index p {
 	text-align: center;
-	font-size: 15px;
+	font-size: 10px;
+	
 }
 
 .recipe p {
@@ -451,9 +459,9 @@ footer {
 table, th, td {
 	border:2.7px solid rgba(255, 173, 32, 0.734);
 	color: rgb(243, 214, 159);
-	border-radius: 5px;
+	border-radius: 35.7px;
 	border-style: groove;
-	background-color: rgba(29, 11, 67, 0.334);
+	background-color: rgba(21, 8, 49, 0.334);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	padding: 3.2px;
 	font-style: oblique;

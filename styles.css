@@ -49,6 +49,12 @@
 
 #contact-body {
 	background-color: black;
+	background-image: url(images/ratt.png.jpg);
+	background-size: 100%;
+	background-color: rgba(0, 0, 0, 0.448);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 
 /*--------------------------------------------------------------------------*/
@@ -443,17 +449,49 @@ footer {
 /*--------------------------------------------------------------------------*/
 
 table, th, td {
-	border:1px solid rgb(243, 214, 159);
+	border:2.7px solid rgba(255, 173, 32, 0.734);
 	color: rgb(243, 214, 159);
+	border-radius: 5px;
+	border-style: groove;
+	background-color: rgba(29, 11, 67, 0.334);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 3.2px;
+	font-style: oblique;
 }
 
 .index h3 {
-	color: rgb(243, 214, 159);
+	color:rgb(243, 214, 159);
 }
 
 .ref {
 	color: rgb(243, 214, 159);
 	text-align: left;
+	font-size: 17px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 6px solid #d39911d8;
+	border-radius: 25px;
+	border-style: groove;
+	padding: 5.5px;
+	box-sizing: border-box;
+	background-color:rgba(10, 12, 31, 0.8);	
+}
+
+.ref a{
+	color: rgba(32, 38, 211, 0.39);
+	text-decoration: none;
+}
+
+.ref a:visited{
+	color: rgba(32, 38, 211, 0.39);
+	
+}
+	
+.rf{
+	color: rgba(245, 223, 182, 0.801);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: inherit;
+	text-decoration: overline;
+	font-size: 25px;
 }
 
 iframe {

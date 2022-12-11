@@ -15,7 +15,7 @@
 </head>
 
 
-<body>
+<body id="main-body">
     <header>
     </header>
     <nav>
@@ -32,9 +32,9 @@
 
     </nav>
     <section></section>
-    
-    <h1>Welcome to our Cookbook</h1>
-        
+    <element class="index">
+        <h1>Welcome to our Cookbook</h1>
+    </element>
         <div class="gif"><img src="https://media.giphy.com/media/GCArrYP8TzXgs/giphy.gif" alt="funny GIF" width="30%" style="display: block;margin-left: auto; margin-right:auto;"></div>
             
     
@@ -43,8 +43,10 @@
             <button type="hi" class="btn" onclick="openPopup()">About us</button>
             <div class="popup" id="popup">
                 <img src="https://i.etsystatic.com/12572484/r/il/cfc509/1130571730/il_794xN.1130571730_ns4x.jpg">
-                <h2>"A cookbook with a cherished recipe collection from our food critic Dimitris Karvounis and his two v̶i̶c̶t̶i̶m̶s̶ loyal assistants: Rigas Sassalos and Anais Farhat." </h2>
-                <p>Alcohol is strictly prohibited.</p>
+                <element class="index">
+                    <h2>"A cookbook with a cherished recipe collection from our food critic Dimitris Karvounis and his two v̶i̶c̶t̶i̶m̶s̶ loyal assistants: Rigas Sassalos and Anais Farhat." </h2>
+                    <p>Alcohol is strictly prohibited.</p>
+                </element>
                 <button type="button" onclick="closePopup()">Ok.</button>
             </div>
         </div>
@@ -59,12 +61,13 @@
         </script>
         
 
-    <p id="pg"> About this site</p>
+    
     
     <footer id="footerDemo">
 
-    
-        <p>For the food experts:</p>
+        <element class="index">
+            <p>For the food experts:</p>
+        </element>
         <button onclick=" footerFunction()"><a href="https://mcdonalds.gr/en/" target="_blank">Click Me</button></a> 
         <p id="footerobject"></p>
         <script>
@@ -73,7 +76,9 @@
             document.getElementById(" footerobject ").innerHTML = f;
             }
         </script>
-        <p>Anais Farhat | Rigas Sassalos | Dimitrios Karvounis | 2022</p>
+        <element class="index">
+            <p>Anais Farhat | Rigas Sassalos | Dimitrios Karvounis | 2022</p>
+        </element>
     </footer>
 
 </body>

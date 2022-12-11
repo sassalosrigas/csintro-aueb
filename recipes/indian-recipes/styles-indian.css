@@ -137,6 +137,8 @@ figcaption {
 iframe {
     float: right;
     padding: 0px 20px;
+    width: 400px;
+    height: 250px;
 }
 
 ol {
